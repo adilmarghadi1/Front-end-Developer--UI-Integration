@@ -274,6 +274,7 @@ body {
 .tab_flex {
     display: flex;
     margin-bottom: 22px;
+    width: 300px;
 }
 
 .profile_info {
