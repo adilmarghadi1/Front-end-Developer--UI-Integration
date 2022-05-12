@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------------Navbar ---------------- */
+
+.logo {
+    margin-top: 8px;
+    margin-right: 36px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin: auto;
+    border-bottom: 1px solid #EBECEE;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.profile_image {
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #353943;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-right: 32px;
+}
+
+.bell_icon {
+    color: #B3B4BE;
+    font-size: 1.2em;
+    margin-left: 22px;
+}
+
+.search_icon {
+    margin-right: -30px !important;
+    z-index: 100;
+    color: #B3B4BE;
+    font-size: 1em;
+}
+
+.nav-item input {
+    outline: none;
+    padding: 10.5px 36px;
+    width: 280px;font-weight: 500;
+    color: #B3B4BE;
+    font-size: .9em;
+    border: 1px solid #E0E1E3;
+    border-radius: 6px;
+    z-index: 0;
+}
+
+/* ---------------- Header ---------------- */
