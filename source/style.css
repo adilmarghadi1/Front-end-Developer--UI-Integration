@@ -327,3 +327,48 @@ body {
 .tab_flex_top_1 {
     margin-top: 25px;
 }
+
+
+/* ---------------- Pagination ----------------*/
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin:auto;
+    margin-bottom: 33px;
+    margin-top: 20px !important;
+}
+
+.pagination_left i {
+    color: #84848B;
+    margin-right: 9px;
+}
+
+.pagination_left a {
+    text-decoration: none;
+    color: #84848B;
+    font-weight: 500;
+    font-size: 1.04em;
+}
+
+
+.pagination_right i {
+    color: #84848B;
+    margin-left: 9px;
+}
+
+.pagination_right a {
+    text-decoration: none;
+    color: #84848B;
+    font-weight: 500;
+    font-size: 1.04em;
+}
+
+.pagination_center a {
+    text-decoration: none;
+    color: #84848B;
+    font-weight: 400;
+    font-size: 1.04em;
+    margin-left: 20px;
+} 
