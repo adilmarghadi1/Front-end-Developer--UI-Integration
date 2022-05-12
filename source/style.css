@@ -331,7 +331,7 @@ body {
 
 /* ---------------- Pagination ----------------*/
 
-.pagination {
+.pagination1 {
     display: flex;
     justify-content: space-between;
     width: 92%;
@@ -365,10 +365,29 @@ body {
     font-size: 1.04em;
 }
 
+
+
 .pagination_center a {
     text-decoration: none;
     color: #84848B;
     font-weight: 400;
     font-size: 1.04em;
-    margin-left: 20px;
+    margin-left: 30px;
 } 
+
+/* .pagination_active {
+    color:#8463EE !important;
+    border-bottom: 2px solid #8463EE;
+    border-top-width: 200px;
+}
+
+  */
+
+  .pagination_active1 {
+    color:#8463EE !important;
+    border-bottom: 1.4px solid #8463EE;
+    margin-left: 50px !important;
+    position: absolute;
+    margin-top: -20px;
+    width: 60px;
+  }
