@@ -267,10 +267,13 @@ body {
 .tab_flex_top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EBECEE;
 }
 
 .tab_flex {
     display: flex;
+    margin-bottom: 22px;
 }
 
 .profile_info {
@@ -314,4 +317,12 @@ body {
     color: #989da2;
     font-size: .9em;
     font-weight: 500;
+}
+
+.tab_flex3 i {
+    color: #A9A9B3;
+}
+
+.tab_flex_top_1 {
+    margin-top: 25px;
 }
