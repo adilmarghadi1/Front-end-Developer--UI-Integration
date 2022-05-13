@@ -1,5 +1,6 @@
 # Front-end-Developer--UI-Integration
 
-### 1- Clone The Project
-### 2-  cd Front-end-Developer--UI-Integration
-### 3-  Then run npm start
+
+### 1-  cd Front-end-Developer--UI-Integration
+### 2-  npm install
+### 3- npm start
